@@ -47,6 +47,10 @@ Dateibaum, der Rest wird live gelesen.
     * Informationen
         * Zieldateityp
         * Integrationsinformationen 
+    * Zielsichtbarkeit
+        * GoogleCode nicht in Draft aber in den Templates
+    * Variationen für Ziele
+        * Unterschiedliche Titel etc.
 * resources/: images...
 * css/: css, sass, less
 * js/: js, coffeescript, typescript

@@ -1,4 +1,12 @@
-# Anforderungen
+# Frontendinator
+
+Framework zur Unterstützung für 
+* Draft - statische HTML Version
+* Dokumentation
+* Integration in ein CMS
+* Report
+
+## Anforderungen
 
 * Einfach zu benutzen (nodejs, java)
 * generiert keinen Unsinn 

@@ -99,6 +99,9 @@ Dateibaum, der Rest wird live gelesen.
 * bower etc. für Dependencies
 * Einstellungen für besondere Befehle (was nicht in Java existiert): sass, coffeescript, ....
 * kumuluzEE für lokalen Server
+    * wenn nur Generierung verwendet wird, kann es automatisch ablaufen 
+    den gesamten Bereich durchlaufen und dann den Server beenden 
+    ```System.exit(1);```
 * Eventuell MAVEN als Basis für
     * Server Komponenten
     * Webjars 

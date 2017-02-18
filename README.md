@@ -102,13 +102,13 @@ Dateibaum, der Rest wird live gelesen.
 * Eventuell MAVEN als Basis für
     * Server Komponenten
     * Webjars 
-        ```XML
-        <dependency>
-            <groupId>org.webjars</groupId>
-            <artifactId>angularjs</artifactId>
-            <version>1.4.8</version>
-        </dependency>
-        ```
+```
+<dependency>
+    <groupId>org.webjars</groupId>
+    <artifactId>angularjs</artifactId>
+    <version>1.4.8</version>
+</dependency>
+```
 
 ## Notizen
 * Server (lokale Entwicklung)

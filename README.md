@@ -84,7 +84,7 @@ Dateibaum, der Rest wird live gelesen.
         * Codeblock
         * Less
         * ...
-        * Eventuell
+    * Eventuell sogar direkt Edit im Frontend, was direkt geschrieben wird (analog zum Editor)
 
 ## Report
 * Bilder

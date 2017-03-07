@@ -8,15 +8,19 @@ Framework zur Unterstützung für
 
 ## Anforderungen
 
-* Einfach zu benutzen (nodejs, java)
+* Einfach zu benutzen (nodejs, java) 
+*[HE] Frontendview: java ist nicht einfach zu benutzen und für Frontend meist Overengineering, Zielsysteme erwarten in der Regel keinen Java Code fürs Templating
 * generiert keinen Unsinn 
-* Developmentstand kommt dem Produkt sehr nah
+* Development Output kommt dem Produkt sehr nah
+*[HE] Versionierung (in Verindung mit GIT)
 * Generierung 
     * Draft
     * UI Metainformation wie UI Pattern 
+    *[HE] Eingabe am besten so gestalten das Kunde / PM auch Metainformationen einpflegen können
     * CMS Integrationsinformationen
     * Template (Vorlagen für Integration)
     * Konzeptionelle Informationen (welche Module ineinander gesteckt werden können etc.)
+    
 * schneller, einfacher Developmentcycle
 * Flexibel in Formaten und Plugins (z. B. Bildformate, JS Frameworks, ...)
 * Unabhängig 
@@ -28,8 +32,12 @@ Framework zur Unterstützung für
 * Dependency Management 
     * CSS (Bootstrap, Grid, Mixins, ...)
     * JS (JQuery, Angular, Polymer, JQuery Plugins...)
-* Developmentstruktur entspricht 1:1 dem Zielsystem
+    * [HE] Fonts
+    
+* Developmentstruktur entspricht 1:1 dem Zielsystem 
     * Es kann sein, dass im Draft Dateien angelegt werden, die nur für ein Ziel notwendig sind (sei es Draft oder CMS)
+    * [HE] das ist nicht immer sinnvoll, sollte pro Zielsystem entschieden werden
+    
 
 ## Base/ Core
 * Dateibaum einlesen
@@ -51,7 +59,7 @@ Dateibaum, der Rest wird live gelesen.
         * GoogleCode nicht in Draft aber in den Templates
     * Variationen für Ziele
         * Unterschiedliche Titel etc.
-* resources/: images...
+* resources/: images, fonts ...
 * css/: css, sass, less
 * js/: js, coffeescript, typescript
     * Minify
@@ -60,9 +68,10 @@ Dateibaum, der Rest wird live gelesen.
 * content/: json struktur mit daten und benutzten templates
 * templates/
     * groovy? mit include, loop, output
+    *[HE] mit groovy würden dann zukünftig die Backendler das Frontend bauen müssen, Frontend füllt dann nur noch das CSS auf
         * Jedes mit einem eigenen Generierungstemplate für die Zielformate
     * pageTemplates (Seite), contentTemplates (Elemente), tinyTemplates (Blöcke)
-
+    
 
 ## Export (generiert nur Export - Aufruf durch Main Klasse)
 * export/index -> 
